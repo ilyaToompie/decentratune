@@ -1,0 +1,41 @@
+node_modules
+# === Rust / Anchor ===
+/target
+**/*.rs.bk
+
+# Anchor build artifacts
+/.anchor
+*.log
+
+# Solana keys
+*.json
+!anchor.toml
+!Anchor.toml
+!package.json
+!package-lock.json
+!yarn.lock
+
+# === Node / React ===
+node_modules
+dist
+build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local env files
+.env
+.env.*.local
+
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+
+# VS Code / JetBrains
+.vscode/*
+!.vscode/extensions.json
+.idea/
